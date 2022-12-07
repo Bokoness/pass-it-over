@@ -1,0 +1,42 @@
+@model = question
+@record = {{store.response.body._id}}
+
+# @name store
+POST {{url}}/{{model}} HTTP/1.1
+Content-Type: {{contentType}}
+
+{
+  "title":"my question",
+  "info": "my question info"
+}
+
+###
+# @name index
+# fetch all question's questions
+GET {{url}}/{{model}}/
+###
+
+###
+# @name show
+## Show one question
+GET {{url}}/{{model}}/{{record}} HTTP/1.1
+
+###
+# @name index
+## Fetch all questions
+GET {{url}}/{{model}} HTTP/1.1
+
+###
+# @name update
+# update one question
+PUT {{url}}/{{model}}/{{record}} HTTP/1.1
+Content-Type: {{contentType}}
+
+{
+  "title":"updated"
+}
+
+###
+# @name delete
+# delete one question
+DELETE {{url}}/{{model}}/{{record}} HTTP/1.1
