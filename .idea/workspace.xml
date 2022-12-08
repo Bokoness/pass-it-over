@@ -4,137 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0acf9311-4507-42bf-8fda-0d8dc6f97961" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pass-it-over.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/env-example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/ClapWayBtn.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/CloudinaryUpload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/ColorPlaten.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/DaysPicker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/DragFile.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/FloatBtn.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/IconBtnTooltip.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/ImageUpload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyBtn.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyDataTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyDatePicker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyDialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyDraggable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MySwitch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyTimePicker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/MyTooltip.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/generics/NumberPicker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/helpers/times.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/helpers/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/layouts/CloseAppFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/layouts/Drawer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/layouts/MobileView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/layouts/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/mixins/Submit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/mixins/sockets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/mixins/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/mixins/veeValidate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/plugins/generics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/plugins/notifications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/plugins/vuetify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/generics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/myAxios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/notifications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/translationService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/store/modules/authModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/NotFound.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.eslintrc.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/AuthController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/BaseController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/ExampleController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/helpers/generics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/http/auth.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/http/example.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/http/question.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/http/user.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jobs/JobCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jobs/fetchTranslation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jobs/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middleware/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/BaseModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/ExampleModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/UserModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/schemas/customValidators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/schemas/exampleSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/schemas/userSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/types/roles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/policies/ExamplePolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/policies/Policy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/policies/UserPolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/ar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/he.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/authRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/exampleRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/userRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/createModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/createUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/syncTranslations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplateController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplateHttp.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplateModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplatePolicy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplateRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplateSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/scripts/templates/TemplateTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/AuthServices.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/ClapWayService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/Cors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/ErrorService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/ExcelService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/FileUploadService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/Logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/MailService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/services/firestore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/sockets/exampleSockets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/sockets/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/example.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/question.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validators/AuthValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validators/CustomValidators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validators/GameValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/validators/QuestionValidator.js" afterDir="false" />
+    <list default="true" id="0acf9311-4507-42bf-8fda-0d8dc6f97961" name="Changes" comment="init firestore">
+      <change afterPath="$PROJECT_DIR$/server/controllers/GameController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/gameRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/firestore.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/firestore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IaLBI2IAocWjX1iXukwzMixru9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -158,10 +49,24 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/snap/webstorm/291/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,6 +77,8 @@
       <updated>1670414610283</updated>
       <workItem from="1670414611307" duration="81000" />
       <workItem from="1670414692618" duration="638000" />
+      <workItem from="1670480881266" duration="36000" />
+      <workItem from="1670494341957" duration="7517000" />
     </task>
     <servers />
   </component>
@@ -183,6 +90,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="init firestore" />
+    <option name="LAST_COMMIT_MESSAGE" value="init firestore" />
   </component>
 </project>

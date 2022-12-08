@@ -3,10 +3,10 @@ import cookieParser from 'cookie-parser'
 import chalk from 'chalk'
 import routes from './routes/routes.js'
 import BaseController from './controllers/BaseController.js'
-import db from './services/db.js'
 import logger from './services/Logger.js'
-
 const app = express()
+
+
 
 app.use(cookieParser())
 app.use(logger())
@@ -22,7 +22,6 @@ app.get('*', BaseController.serveHtml())
 const startServer = async () => {
   try {
     const port = process.env.PORT
-    await db()
     console.log(chalk.bgGreen('connected to DB'))
     app.listen(port, () => {
       console.log(
